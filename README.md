@@ -1,5 +1,5 @@
 # raster-to-phzm
-ArcPy scripts that convert raster datasets containing annual average minimum temperatures to a Plant Hardiness Zone Map. 
+Arcpy scripts that convert raster datasets containing annual average minimum temperatures to a Plant Hardiness Zone Map. 
 
 ## Reclassify Layers
 Reclassifies raster layer in current map. Also takes filepath raster input. 
