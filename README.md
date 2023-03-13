@@ -1,5 +1,5 @@
-# raster-to-phzm
-Arcpy scripts that convert raster datasets containing annual average minimum temperatures to a Plant Hardiness Zone Map. 
+# hardiness-zone-toolbox
+This toolbox was created by Andrew Bowen (bowenam@etsu.edu) at East Tennessee State University as part of a Master's thesis project. The toolboxes contain arcpy scripts that convert raster datasets containing annual average minimum temperatures (BIO 6) to a Plant Hardiness Zone Map. 
 
 ## Reclassify (Layers)
 Reclassifies raster layer in current map. Also takes filepath raster input. 
@@ -21,8 +21,8 @@ A more complicated script tool. I developed this one for use with PaleoClim data
 * Colormap - Color coding to use with the output zones. See (bathymetric.clr link). 
 
 ## A note about the two toolboxes:
-There are two similar toolboxes here: autoclip and non-autoclip. The differences are noted below. 
+There are two similar toolboxes included: autoclip and non-autoclip. The differences are noted below. 
 #### Non-Autoclip Scripts
-These scripts will produce Plant Hardiness Zone Maps (PHZMs) of the same area coverage of the original input raster file. 
+These scripts will produce Plant Hardiness Zone Maps (PHZMs) of the same coverage of the original input raster file. 
 #### Autoclip Scripts
 These scripts take an additional input parameter: a shapefile layer to clip the output data. Otherwise are the same as the Non-Autoclip Scripts.
