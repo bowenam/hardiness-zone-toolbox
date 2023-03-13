@@ -9,13 +9,13 @@ Reclassifies raster layer in current map. Also takes filepath raster input.
 * Colormap - Color coding to use with the output zones. See (bathymetric.clr link). 
 
 ## Reclassify (WorldClim)
-Reclassifies raster files that contain multiple raster bands, each corresponding to a bioclimatic variable. This tool seeks out the BIO_6 band, which corresponds to extreme minimum temperature. (Primarily for use with WorldClim data.)
+This script tool targets WorldClim data; Reclassifies raster files that contain multiple raster bands, each (band) corresponding to a bioclimatic variable. This tool seeks out the BIO_6 band, which corresponds to extreme minimum temperature.
 #### Input Parameters
 * Directory - The directory containing the multi-band TIF files. Each TIF file should contain the BIO_6 band for the tool to work. 
 * Colormap - Color coding to use with the output zones. See (bathymetric.clr link). 
 
 ## Reclassify (PaleoClim)
-A more complicated script tool. I developed this one for use with PaleoClim data, as its structure is different from WorldClim and a touch less intuitive. 
+This script tool targets PaleoClim data; Reclassifies raster files that represnet bioclimatic variables. This tool seeks out folders containing bio_6 GeoTIFF files to reclassify.
 #### Input Parameters
 * Directory - The superdirectory containing the subdirectories, each corresponding to a time frame and itself containing a TIF file. This tool searches for the TIF file entitled "bio_6.tif". 
 * Colormap - Color coding to use with the output zones. See (bathymetric.clr link). 
