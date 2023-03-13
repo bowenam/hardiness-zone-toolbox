@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Monday, March 13, 2023 14:17:16</msg><msg code="-2147467259" type="100">  File "D:\Folder Holder\GitHub\hardiness-zone-toolbox\toolboxes\autoclip.atbx#ReclassTifBands_autoclip.py", line 50
+    arcpy.AddMessage(f'Clipping to {clip_layer.split("\\")[-1]}.')
+                                                                 ^
+SyntaxError: f-string expression part cannot include a backslash
+</msg><msg code="0" type="0">Failed script Reclassify (WorldClim)...</msg><msg code="-2147467259" type="100">Failed to execute (ReclassTifBands).</msg><msg code="0" type="3">Failed at Monday, March 13, 2023 14:17:16 (Elapsed Time: 0.05 seconds)</msg></messages>
