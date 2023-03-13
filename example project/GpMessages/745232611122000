@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Monday, March 13, 2023 13:13:56</msg><msg code="0" type="0">ssp370_2041_2060.tif\wc2_6</msg><msg code="0" type="0">Clipping to D:\Folder Holder\GitHub\hardiness-zone-toolbox\extra\USA_Country_PairwiseClip.lyrx.</msg><msg code="-2147467259" type="100">Traceback (most recent call last):
+  File "D:\Folder Holder\GitHub\hardiness-zone-toolbox\toolboxes\autoclip.atbx#ReclassTifBands_autoclip.py", line 85, in &lt;module&gt;
+  File "D:\Folder Holder\GitHub\hardiness-zone-toolbox\toolboxes\autoclip.atbx#ReclassTifBands_autoclip.py", line 52, in reclass
+  File "D:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 20983, in Clip
+    raise e
+  File "D:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\management.py", line 20980, in Clip
+    retval = convertArcObjectToPythonObject(gp.Clip_management(*gp_fixargs((in_raster, rectangle, out_raster, in_template_dataset, nodata_value, clipping_geometry, maintain_clipping_extent), True)))
+  File "D:\Program Files\ArcGIS\Pro\Resources\ArcPy\arcpy\geoprocessing\_base.py", line 512, in &lt;lambda&gt;
+    return lambda *args: val(*gp_fixargs(args, True))
+arcgisscripting.ExecuteError: ERROR 000601: Cannot delete C:\OneDrive - East Tennessee State University\Thesis\data\worldclim\future\ssp370\output\ssp370_2041_2060.tif_wc2_6_c.tif.  May be locked by another application.
+Failed to execute (Clip).
+
+</msg><msg code="0" type="0">Failed script Reclassify (WorldClim)...</msg><msg code="-2147467259" type="100">Failed to execute (ReclassTifBands).</msg><msg code="0" type="3">Failed at Monday, March 13, 2023 13:14:59 (Elapsed Time: 1 minutes 3 seconds)</msg></messages>
