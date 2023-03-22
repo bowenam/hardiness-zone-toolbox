@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?><messages><msg code="0" type="2">Start Time: Wednesday, March 22, 2023 12:59:57</msg><msg code="0" type="0">Beginning reclassification of minimum temperatures to plant hardiness zones.</msg><msg code="0" type="0">NOTE: For bioclimatic variables, bio_6 MUST be used or results have little meaning.</msg><msg code="0" type="0">------------------------------------------------------------</msg><msg code="0" type="0">bio_6.tif</msg><msg code="-2147467259" type="100">Traceback (most recent call last):
+  File "D:\Folder Holder\GitHub\hardiness-zone-toolbox\toolboxes\autoclip.atbx#ReclassifyLayers_autoclip.py", line 69, in &lt;module&gt;
+  File "D:\Folder Holder\GitHub\hardiness-zone-toolbox\toolboxes\autoclip.atbx#ReclassifyLayers_autoclip.py", line 40, in reclass
+AttributeError: ValueObject: Get attribute split does not exist
+</msg><msg code="0" type="0">Failed script Reclassify (Layers)...</msg><msg code="-2147467259" type="100">Failed to execute (ReclassifyLayers).</msg><msg code="0" type="3">Failed at Wednesday, March 22, 2023 12:59:59 (Elapsed Time: 1.85 seconds)</msg></messages>
